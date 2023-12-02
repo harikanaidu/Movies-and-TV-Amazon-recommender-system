@@ -2,6 +2,7 @@
 Recommender system based on Amazon product reviews using Collaborative filtering and hyperparameter tuning techniques
 
 Dataset page: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/ Amazon Review Data(2018)
+Dataset files used : meta_Movies_and_TV.json ; Movies_and_TV.csv
 
 Developed as part of the final class project for CAP-5778 in a team of TWO.
 We have designed a collaborative filtering recommender system using Pivoting and correlation table, Singular Value Decomposition algorithm and tuning its parameters to obtain the optimised performance measured in MAE and RMSE.
