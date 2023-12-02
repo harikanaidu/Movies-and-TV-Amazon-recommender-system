@@ -13,6 +13,6 @@ But for large datasets, understanding user-items relationships can be difficult 
 Using the optimised final model, we have then obtained the top-10 unseen movies/TV items for each user based on ratings given by similar users to movies.
 
 Full presentation deck can be found here
-<iframe src="https://fsu-my.sharepoint.com/personal/lg22k_fsu_edu/_layouts/15/Doc.aspx?sourcedoc={5c7ec3e1-4d4e-4986-b46c-24961fbac891}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+https://fsu-my.sharepoint.com/:p:/g/personal/lg22k_fsu_edu/EeHDflxOTYZJtGwklh-6yJEBsXJzpotzfQYF03T6nubfMQ?e=qJ5Om0
 
 
