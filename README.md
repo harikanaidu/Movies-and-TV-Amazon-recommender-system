@@ -2,10 +2,17 @@
 Recommender system based on Amazon product reviews using Collaborative filtering and hyperparameter tuning techniques
 
 Dataset page: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/ Amazon Review Data(2018)
-As part of the final class project for CAP-5778, we have designed a collaborative filtering recommender system using Pivoting and correlation table, Singular Value Decomposition algorithm and tuning its parameters to obtain the optimised performance measured in MAE and RMSE.
+
+Developed as part of the final class project for CAP-5778 in a team of TWO.
+We have designed a collaborative filtering recommender system using Pivoting and correlation table, Singular Value Decomposition algorithm and tuning its parameters to obtain the optimised performance measured in MAE and RMSE.
 
 Pivoting and Matrix Factorisation:
 To perform matrix factorisation, it's important to represent the users and items in a lower dimensional latent space. This can be achieved with the help of a pivot table, where unique users are represented by rows, unique items as columns and values representing the ratings for those items. This way, we can decompose the user-item interaction matrix and understand the underlying relationships between users and items.
-One popular matrix factorisation technique is Singular Value Decomposition(SVD).
+But for large datasets, understanding user-items relationships can be difficult due to high dimensionality of the data. Hence, we used dimensionality reduction techniques like SVD and fine-tuned the parameters for the optimised number of latent factors, learning rate and number of epochs to lower the RMSE and MAE errors. 
 
-Upon training the fine-tuned model, we have then obtained the top-10 unseen movies/TV items for each user based on ratings given by similar users to movies.
+Using the optimised final model, we have then obtained the top-10 unseen movies/TV items for each user based on ratings given by similar users to movies.
+
+Full presentation deck can be found here
+<iframe src="https://fsu-my.sharepoint.com/personal/lg22k_fsu_edu/_layouts/15/Doc.aspx?sourcedoc={5c7ec3e1-4d4e-4986-b46c-24961fbac891}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+
+
